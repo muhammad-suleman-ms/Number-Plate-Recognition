@@ -15,6 +15,10 @@ if not os.path.exists(save_folder):
 # Open the video file (replace '0' with the desired camera index)
 cap = cv2.VideoCapture(0)
 
+# Open the video file (replace '0' with the desired camera index)
+cap = cv2.VideoCapture(0)
+
+
 # Set the path to the pytesseract executable
 pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract'
 
